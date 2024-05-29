@@ -19,18 +19,18 @@ Este projeto é uma API para gerenciamento de tarefas construída com Java 22. E
 
 
 ### Passo 3: Configuração o h2
-- Abra o application.properties e configure a gosto, aqui vão alguns itens que podem ser levados em consideração:
+Abra o application.properties e configure a gosto, aqui vão alguns itens que podem ser levados em consideração:
 
-# Dados de conexão com o banco H2
+- Dados de conexão com o banco H2
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.username=sa
 spring.datasource.password=
 
-# Configuração do cliente web do banco H2
+- Configuração do cliente web do banco H2
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 
-# Configuração para mostrar o SQL no console
+- Configuração para mostrar o SQL no console
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
